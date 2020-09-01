@@ -1,0 +1,18 @@
+don't forget to mod the security group rules of the ec2 instance. SG=default
+can ssh for now given current SG rules.
+
+On Terraform Cloud, use below to store credentials for remotely storing state.
+
+terraform {
+  backend "remote" {
+    organization = "<ORG_NAME>"
+
+    workspaces {
+      name = "Example-Workspace"
+    }
+  }
+}
+
+credentials "app.terraform.io" {
+  token = "REPLACE_ME"
+}

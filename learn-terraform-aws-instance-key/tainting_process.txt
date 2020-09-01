@@ -1,0 +1,3 @@
+root@ubuntu-xenial:/vagrant/learn-terraform-aws-instance-key# terraform taint aws_instance.example
+Resource instance aws_instance.example has been marked as tainted.
+root@ubuntu-xenial:/vagrant/learn-terraform-aws-instance-key# 

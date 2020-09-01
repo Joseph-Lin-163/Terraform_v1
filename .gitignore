@@ -1,0 +1,8 @@
+.terraform
+*tfstate*
+learn-terraform-aws-instance-key/terraform
+learn-terraform-aws-instance-key/terraform.pub
+ip_address.txt
+.vagrant
+*log
+Vagrantfile
