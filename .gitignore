@@ -2,9 +2,12 @@
 *tfstate*
 learn-terraform-aws-instance-key/terraform
 learn-terraform-aws-instance-key/terraform.pub
-learn-terraform-provisioning/tf-cloud-init
-learn-terraform-provisioning/tf-cloud-init.pub
-learn-terraform-provisioning/.terraform
+learn-terraform-provisioning-cloud-init/tf-cloud-init
+learn-terraform-provisioning-cloud-init/tf-cloud-init.pub
+learn-terraform-provisioning-cloud-init/.terraform
+learn-terraform-provisioning-packer/tf-packer
+learn-terraform-provisioning-packer/tf-packer.pub
+learn-terraform-provisioning-packer/.terraform
 ip_address.txt
 .vagrant
 *log

@@ -15,11 +15,10 @@ users:
     primary_group: hashicorp
     sudo: ALL=(ALL) NOPASSWD:ALL
     groups: users, admin
-    ssh_import_id:
+    # ssh_import_id: None
     lock_passwd: false
     ssh_authorized_keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDUDeHXhTBrDYQdjCA3MN1Vexsx2ugPEVLdPDdrhdFSQfA7vkCTDvS5550XddbMbSxBYU+jAtHGCdx4jpJS5NW2UlJXPWb0b3Iq0bpU9G2i9sVvey9+LzPqIISrGBPOlT7pqsW1o3wupGF4UuzGsJJmPk6fzRhbZvBZPX2UrV+SLUy6qHOcd2HjDFhXReCbTnMvPv+CGaVU6OJVPE8YC6dL7oPZLbreQsTy09gZJdoYm2uYN4P8mknirdd0dr1d+9uYHeZA9vwtn8oV81riOblE7fPgwLIxD6KGmLDePdfpdM5g+s0quIdA9NvoIeSuq/Ded7x4oX8BOiO7b8FvEc3d sns888c@gmail.com
-
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDm8CDRur9xKks9p9+x6w/WhGx+1mPrH0tWZ1Sce0QWWQL5ZENiXQK6HTkB9LTr9F2saC2qa3e5TMss6NdktjWM4LBgm5g1Vae7/K52QGJ5tD0uVLGXEUhGy9P9vhPpfMZXOLcB1OFx2W3QpxmIHCkWDbsWSQN4oUgpQTh4EsYn+KhWDNjtBPQn/pG3/0wfB68jNLeX4CoS5m1OnoJ5seYeoqsUYXhi6JSrDWcXBsPX69ForrLafAdWQ6ShJcMjS3pk7wybvcx47m9XeVt6VYRyWW4nOgxUJlxEyNaUAimBam4Q6DkzMwP+nwfx1VJvhIiEdZoQqOhNSE6o5T53Gys3 sns888c@gmail.com
 
 # Downloads the golang package
 packages:
