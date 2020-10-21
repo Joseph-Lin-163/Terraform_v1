@@ -8,6 +8,8 @@ learn-terraform-provisioning-cloud-init/.terraform
 learn-terraform-provisioning-packer/tf-packer
 learn-terraform-provisioning-packer/tf-packer.pub
 learn-terraform-provisioning-packer/.terraform
+learn-vault/vault/data/vault.db
+unseal.key
 ip_address.txt
 .vagrant
 *log
