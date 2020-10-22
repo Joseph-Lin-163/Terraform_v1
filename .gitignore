@@ -9,6 +9,9 @@ learn-terraform-provisioning-packer/tf-packer
 learn-terraform-provisioning-packer/tf-packer.pub
 learn-terraform-provisioning-packer/.terraform
 learn-vault/vault/data/vault.db
+learn-vault-pki/*pem
+learn-vault-pki/*csr
+learn-vault-pki/*crt
 unseal.key
 ip_address.txt
 .vagrant
